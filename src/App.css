@@ -1,38 +1,40 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: NotoNaskh;
+  src: url("/public/fonts/NotoNaskhArabic/NotoNaskhArabic-Medium.ttf");
+  font-style: 500;
+}
+
+@font-face {
+  font-family: NotoNaskh;
+  src: url("/public/fonts/NotoNaskhArabic/NotoNaskhArabic-Bold.ttf");
+  font-style: 700;
+}
+
+@font-face {
+  font-family: NotoNaskh;
+  src: url("/public/fonts/NotoNaskhArabic/NotoNaskhArabic-SemiBold.ttf");
+  font-style: 600;
+}
+
+@font-face {
+  font-family: NotoNaskh;
+  src: url("/public/fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.ttf");
+  font-style: 400;
+}
+
+.body {
   text-align: center;
+  font-family: NotoNaskh !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.MainContainer {
+  background-color: #1565c0;
+  height: 100vh;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
